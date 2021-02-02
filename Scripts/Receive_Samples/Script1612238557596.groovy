@@ -15,3 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Receive Samples/Page_Avera/span_samplemanagement'))
+
+WebUI.click(findTestObject('Receive Samples/Page_Avera/span_receivesamples'))
+
+WebUI.click(findTestObject('Receive Samples/Page_Avera/div_option'))
+
+WebUI.click(findTestObject('Receive Samples/Page_Avera/li_Other'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Receive Samples/Page_Avera/txt_tube1'), 'IJ8176680700')
+
+WebUI.scrollToElement(findTestObject('Receive Samples/Page_Avera/btn_verify'), 10)
+
+WebUI.click(findTestObject('Receive Samples/Page_Avera/btn_verify'))
+
+WebUI.verifyTextPresent('Successfully verified task Receive Samples', false)
+
