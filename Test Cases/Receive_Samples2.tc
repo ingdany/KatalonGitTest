@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Another Receive Samples Test Case</description>
+   <name>Receive_Samples2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc15aeda-2362-4ca8-a12f-e2f47d5e8721</testCaseGuid>
+</TestCaseEntity>

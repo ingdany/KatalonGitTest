@@ -80,7 +80,7 @@ class demo {
 		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
 		return selectedRows
 	}
-	
+
 	@Keyword
 	def myCustomPrint(String msg) {
 		println 'the message is:' + msg

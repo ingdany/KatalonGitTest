@@ -15,18 +15,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//String user = "dperez"
-WebUI.openBrowser('http://10.2.1.16:8080/Okazaki/')
+WebUI.callTestCase(findTestCase('Login'), [('username') : findTestData('LoginInfo').getValue(1, 1), ('password') : findTestData(
+            'LoginInfo').getValue(1, 1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.waitForElementClickable(findTestObject('Receive Samples/Page_Avera/span_samplemanagement'), 1)
 
-//WebUI.setText(findTestObject('Login/Page_Avera Login/txt_username'), username)
-//WebUI.setText(findTestObject('Login/Page_Avera Login/txt_password'), password)
-for (def row = 1; row <= findTestData('LoginInfo').getRowNumbers(); row++) {
-    WebUI.setText(findTestObject('Login/Page_Avera Login/txt_username'), findTestData('LoginInfo').getValue(1, row))
+WebUI.click(findTestObject('Receive Samples/Page_Avera/span_samplemanagement'))
 
-    WebUI.setText(findTestObject('Login/Page_Avera Login/txt_password'), findTestData('LoginInfo').getValue(2, row))
-}
+WebUI.click(findTestObject('Receive Samples/Page_Avera/span_receivesamples'))
 
-WebUI.click(findTestObject('Login/Page_Avera Login/btn_login'))
+WebUI.click(findTestObject('Receive Samples/Page_Avera/div_option'))
+
+WebUI.click(findTestObject('Receive Samples/Page_Avera/li_Other'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Receive Samples/Page_Avera/txt_tube1'), 'IJ8176680700')
+
+WebUI.scrollToElement(findTestObject('Receive Samples/Page_Avera/btn_verify'), 1)
+
+WebUI.click(findTestObject('Receive Samples/Page_Avera/btn_verify'))
+
+WebUI.verifyTextPresent('Successfully verified task Receive Samples', false)
+
+CustomKeywords.'com.avera.demo.myCustomPrint'('[Receive Samples Completed]')
+
+WebUI.closeBrowser()
 

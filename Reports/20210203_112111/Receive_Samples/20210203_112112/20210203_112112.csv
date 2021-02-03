@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Receive_Samples,Chrome 88.0.4324.104,,,2021-02-03 11:21:15,2021-02-03 11:22:06,51.727s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 88.0.4324.104,,,2021-02-03 11:21:16,2021-02-03 11:21:29,13.036s,PASSED
+"openBrowser(""http://10.2.1.16:8080/Okazaki/"")",Chrome 88.0.4324.104,,,2021-02-03 11:21:16,2021-02-03 11:21:22,5.091s,PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-02-03 11:21:22,2021-02-03 11:21:24,2.212s,PASSED
+"setText(findTestObject(""Login/Page_Avera Login/txt_username""), username)",Chrome 88.0.4324.104,,,2021-02-03 11:21:24,2021-02-03 11:21:25,0.800s,PASSED
+"setText(findTestObject(""Login/Page_Avera Login/txt_password""), password)",Chrome 88.0.4324.104,,,2021-02-03 11:21:25,2021-02-03 11:21:25,0.721s,PASSED
+"click(findTestObject(""Login/Page_Avera Login/btn_login""))",Chrome 88.0.4324.104,,,2021-02-03 11:21:25,2021-02-03 11:21:29,3.735s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 88.0.4324.104,,,2021-02-03 11:21:29,2021-02-03 11:21:43,13.807s,PASSED
+"openBrowser(""http://10.2.1.16:8080/Okazaki/"")",Chrome 88.0.4324.104,,,2021-02-03 11:21:29,2021-02-03 11:21:35,5.596s,PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-02-03 11:21:35,2021-02-03 11:21:37,2.178s,PASSED
+"setText(findTestObject(""Login/Page_Avera Login/txt_username""), username)",Chrome 88.0.4324.104,,,2021-02-03 11:21:37,2021-02-03 11:21:38,0.773s,PASSED
+"setText(findTestObject(""Login/Page_Avera Login/txt_password""), password)",Chrome 88.0.4324.104,,,2021-02-03 11:21:38,2021-02-03 11:21:38,0.752s,PASSED
+"click(findTestObject(""Login/Page_Avera Login/btn_login""))",Chrome 88.0.4324.104,,,2021-02-03 11:21:38,2021-02-03 11:21:43,4.498s,PASSED
+,,,,,,,
+Test Cases/Receive_Samples,Chrome 88.0.4324.104,,,2021-02-03 11:21:43,2021-02-03 11:22:06,23.633s,PASSED
+"click(findTestObject(""Receive Samples/Page_Avera/span_samplemanagement""))",Chrome 88.0.4324.104,,,2021-02-03 11:21:43,2021-02-03 11:21:44,0.755s,PASSED
+"click(findTestObject(""Receive Samples/Page_Avera/span_receivesamples""))",Chrome 88.0.4324.104,,,2021-02-03 11:21:44,2021-02-03 11:21:45,0.534s,PASSED
+"click(findTestObject(""Receive Samples/Page_Avera/div_option""))",Chrome 88.0.4324.104,,,2021-02-03 11:21:45,2021-02-03 11:21:50,5.928s,PASSED
+"click(findTestObject(""Receive Samples/Page_Avera/li_Other""))",Chrome 88.0.4324.104,,,2021-02-03 11:21:50,2021-02-03 11:21:51,0.430s,PASSED
+delay(1),Chrome 88.0.4324.104,,,2021-02-03 11:21:51,2021-02-03 11:21:52,1.025s,PASSED
+"setText(findTestObject(""Receive Samples/Page_Avera/txt_tube1""), ""IJ8176680700"")",Chrome 88.0.4324.104,,,2021-02-03 11:21:52,2021-02-03 11:21:53,0.766s,PASSED
+"scrollToElement(findTestObject(""Receive Samples/Page_Avera/btn_verify""), 10)",Chrome 88.0.4324.104,,,2021-02-03 11:21:53,2021-02-03 11:21:53,0.366s,PASSED
+"click(findTestObject(""Receive Samples/Page_Avera/btn_verify""))",Chrome 88.0.4324.104,,,2021-02-03 11:21:53,2021-02-03 11:21:53,0.445s,PASSED
+"verifyTextPresent(""Successfully verified task Receive Samples"", false)",Chrome 88.0.4324.104,,,2021-02-03 11:21:53,2021-02-03 11:22:06,13.004s,PASSED
+"com.avera.demo.myCustomPrint(""Receive Samples Completed"")",Chrome 88.0.4324.104,,,2021-02-03 11:22:06,2021-02-03 11:22:06,0.011s,PASSED

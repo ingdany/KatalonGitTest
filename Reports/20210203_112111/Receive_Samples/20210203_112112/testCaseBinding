@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Login - Iteration 1","testCaseId":"Test Cases/Login","bindedValues":{"password":"\u002712345\u0027","username":"\u0027dperez\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 2","testCaseId":"Test Cases/Login","bindedValues":{"password":"\u0027linx123\u0027","username":"\u0027linx\u0027"}}
+{"testCaseName":"Test Cases/Receive_Samples","testCaseId":"Test Cases/Receive_Samples"}
