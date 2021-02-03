@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Receive_Samples" time="46.092" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="Receive_Samples" tests="2" failures="0" errors="0" time="46.092" skips="0" timestamp="2021-02-02 18:51:03" hostname="dperez - MXENG-LAP15.biosoftinc.com" id="Test Suites/Receive_Samples">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\src\\projects\\KatalonGitTest\\Reports\\20210202_185101\\Receive_Samples\\20210202_185101"/>
+         <property name="logFiles" value="C:\\src\\projects\\KatalonGitTest\\Reports\\20210202_185101\\Receive_Samples\\20210202_185101\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dperez - MXENG-LAP15.biosoftinc.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="10.2.1.208"/>
+         <property name="sessionId" value="952c2045831426d443101afd60b4ea67"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="18.412" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2021-02-02 18:51:04 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2021-02-02 18:51:04 - [TEST_STEP][PASSED] - openBrowser("http://10.2.1.16:8080/Okazaki/"): Browser is opened with url: 'http://10.2.1.16:8080/Okazaki/'
+
+2021-02-02 18:51:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-02 18:51:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-02 18:51:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.2.1.16:8080/Okazaki/'
+
+2021-02-02 18:51:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-02 18:51:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-02 18:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_Avera Login/txt_username"), "dperez"): Text 'dperez' is set on object 'Object Repository/Login/Page_Avera Login/txt_username'
+
+2021-02-02 18:51:13 - [MESSAGE][PASSED] - Text 'dperez' is set on object 'Object Repository/Login/Page_Avera Login/txt_username'
+
+2021-02-02 18:51:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Page_Avera Login/txt_password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Login/Page_Avera Login/txt_password'
+
+2021-02-02 18:51:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Avera Login/txt_password'
+
+2021-02-02 18:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Avera Login/btn_login")): Object: 'Object Repository/Login/Page_Avera Login/btn_login' is clicked on
+
+2021-02-02 18:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Avera Login/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Receive_Samples" time="25.777" classname="Test Cases/Receive_Samples" status="PASSED">
+         <system-out><![CDATA[2021-02-02 18:51:22 - [TEST_CASE][PASSED] - Test Cases/Receive_Samples: Test Cases/Receive_Samples
+
+2021-02-02 18:51:23 - [TEST_STEP][PASSED] - click(findTestObject("Receive Samples/Page_Avera/span_samplemanagement")): Object: 'Object Repository/Receive Samples/Page_Avera/span_samplemanagement' is clicked on
+
+2021-02-02 18:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Receive Samples/Page_Avera/span_samplemanagement' is clicked on
+
+2021-02-02 18:51:23 - [TEST_STEP][PASSED] - click(findTestObject("Receive Samples/Page_Avera/span_receivesamples")): Object: 'Object Repository/Receive Samples/Page_Avera/span_receivesamples' is clicked on
+
+2021-02-02 18:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Receive Samples/Page_Avera/span_receivesamples' is clicked on
+
+2021-02-02 18:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Receive Samples/Page_Avera/div_option")): Object: 'Object Repository/Receive Samples/Page_Avera/div_option' is clicked on
+
+2021-02-02 18:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Receive Samples/Page_Avera/div_option' is clicked on
+
+2021-02-02 18:51:30 - [TEST_STEP][PASSED] - click(findTestObject("Receive Samples/Page_Avera/li_Other")): Object: 'Object Repository/Receive Samples/Page_Avera/li_Other' is clicked on
+
+2021-02-02 18:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Receive Samples/Page_Avera/li_Other' is clicked on
+
+2021-02-02 18:51:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-02-02 18:51:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-02 18:51:31 - [TEST_STEP][PASSED] - setText(findTestObject("Receive Samples/Page_Avera/txt_tube1"), "IJ8176680700"): Text 'IJ8176680700' is set on object 'Object Repository/Receive Samples/Page_Avera/txt_tube1'
+
+2021-02-02 18:51:32 - [MESSAGE][PASSED] - Text 'IJ8176680700' is set on object 'Object Repository/Receive Samples/Page_Avera/txt_tube1'
+
+2021-02-02 18:51:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Receive Samples/Page_Avera/btn_verify"), 10): Scroll to object 'Object Repository/Receive Samples/Page_Avera/btn_verify' successfully
+
+2021-02-02 18:51:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Receive Samples/Page_Avera/btn_verify' successfully
+
+2021-02-02 18:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Receive Samples/Page_Avera/btn_verify")): Object: 'Object Repository/Receive Samples/Page_Avera/btn_verify' is clicked on
+
+2021-02-02 18:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Receive Samples/Page_Avera/btn_verify' is clicked on
+
+2021-02-02 18:51:33 - [TEST_STEP][PASSED] - verifyTextPresent("Successfully verified task Receive Samples", false): Text 'Successfully verified task Receive Samples' is present on page 
+
+2021-02-02 18:51:48 - [MESSAGE][PASSED] - Text 'Successfully verified task Receive Samples' is present on page 
+
+2021-02-02 18:51:48 - [TEST_STEP][PASSED] - com.avera.demo.myCustomPrint("Receive Samples Completed"): com.avera.demo.myCustomPrint is PASSED
+
+2021-02-02 18:51:48 - [MESSAGE][PASSED] - com.avera.demo.myCustomPrint is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-02 18:51:03 - [TEST_SUITE][PASSED] - Receive_Samples: Test Cases/Receive_Samples]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

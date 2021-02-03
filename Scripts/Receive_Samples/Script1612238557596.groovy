@@ -33,3 +33,5 @@ WebUI.click(findTestObject('Receive Samples/Page_Avera/btn_verify'))
 
 WebUI.verifyTextPresent('Successfully verified task Receive Samples', false)
 
+CustomKeywords.'com.avera.demo.myCustomPrint'('Receive Samples Completed')
+
